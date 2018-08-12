@@ -30,7 +30,7 @@ console.log(newarray.toString()+' items of newarray')
 return newarray
 }
 
-function removeKitten(){
+function removeLastKitten(){
 console.log(kittens.length+'length of kittens')
 var newarray=kittens.slice(0)
 console.log(newarray.toString()+' items of newarray')
