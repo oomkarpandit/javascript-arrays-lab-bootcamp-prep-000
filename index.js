@@ -20,5 +20,5 @@ kittens.splice(end,0,name)
 console.log(kittens.toString()+'items of kittens')
 console.log(newarray.toString()+'items of newarray')
 
-return newarray
+return kittens
 }
