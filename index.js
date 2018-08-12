@@ -14,11 +14,11 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  console.log(kittens.length)
+  console.log(kittens.length+'length of kittens')
   var end=kittens.length
 var newarray=kittens.splice(end,0,name)
-console.log(kittens.toString())
-console.log(newarray.toString())
+console.log(kittens.toString()+'items of kittens')
+console.log(newarray.toString()+'items of kittens')
 
 return newarray
 }
