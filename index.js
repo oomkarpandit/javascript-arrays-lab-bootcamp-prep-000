@@ -29,3 +29,12 @@ newarray.splice(0,0,name)
 console.log(newarray.toString()+' items of newarray')
 return newarray
 }
+
+function removeKitten(name){
+console.log(kittens.length+'length of kittens')
+var newarray=kittens.slice(0)
+console.log(newarray.toString()+' items of newarray')
+newarray.splice(0,newarray.length,name)
+console.log(newarray.toString()+' items of newarray')
+return newarray
+}
