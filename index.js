@@ -14,6 +14,6 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-var newarray=  kittens.splice(kittens.length(),0,name)
+var newarray=  kittens.splice(kittens.length-1,0,name)
 return newarray
 }
