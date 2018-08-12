@@ -30,11 +30,11 @@ console.log(newarray.toString()+' items of newarray')
 return newarray
 }
 
-function removeKitten(name){
+function removeKitten(){
 console.log(kittens.length+'length of kittens')
 var newarray=kittens.slice(0)
 console.log(newarray.toString()+' items of newarray')
-newarray.splice(0,newarray.length,name)
+newarray.splice(newarray.length-1,1)
 console.log(newarray.toString()+' items of newarray')
 return newarray
 }
