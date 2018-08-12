@@ -14,7 +14,7 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  console.log(kittens.length+'length of kittens')
+console.log(kittens.length+'length of kittens')
 var narray
 narray=kittens.splice(kittens.length,0,name)
 console.log(kittens.toString()+'items of kittens')
