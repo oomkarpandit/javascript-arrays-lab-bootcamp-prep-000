@@ -13,3 +13,6 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift()
 }
 
+function appendKitten(name){
+var newarray=  kittens.
+}
