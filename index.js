@@ -17,5 +17,8 @@ function appendKitten(name){
   console.log(kittens.length)
   var end=kittens.length
 var newarray=kittens.splice(end,0,name)
+console.log(kittens.toString())
+console.log(newarray.toString())
+
 return newarray
 }
